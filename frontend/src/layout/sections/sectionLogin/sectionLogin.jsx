@@ -1,5 +1,6 @@
 import "./style.css";
 import senaiLogo from "../../../assets/img/senai_logo.svg";
+import { Link } from 'react-router-dom';
 
 export const SectionLogin = () => {
   return (
@@ -15,7 +16,9 @@ export const SectionLogin = () => {
           </form>
         </div>
         <div className="card-action">
-          <button className="btn-login">ENTRAR</button>
+            <Link to="/home">
+              <button className="btn-login">ENTRAR</button>
+            </Link>
           <p>Esqueceu a senha?</p>
         </div>
       </div>

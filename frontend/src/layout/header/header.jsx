@@ -1,7 +1,6 @@
 import "./style.css";
 import logoSenai from "../../assets/img/senai-logo-menu.svg";
 import userIcon from "../../assets/img/user-menu.svg";
-import barra from "../../assets/img/Line 4.svg"
 
 export const Header = () => {
   return (
