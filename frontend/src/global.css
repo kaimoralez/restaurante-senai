@@ -24,5 +24,25 @@
     --fw-light: 300;
     --fw-regular: 400;
     --fw-medium: 500;
-    --fw-bold: 700; 
+    --fw-bold: 700;
+}
+
+.btn-primary-red {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: var(--font-body);
+    font-size: var(--font-button-size);
+    font-weight: var(--fw-medium);
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-red);
+    cursor: pointer;
+    border-color: #FF0000;
+    border: 1px;
+    transition: 0.3s ease;
+}
+
+.btn-primary-red:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
