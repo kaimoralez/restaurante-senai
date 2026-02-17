@@ -9,17 +9,23 @@
 
 .container-pagamento {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     height: 100vh;
-    width: 850px;
     background-color: var(--color-secondary-white);
+    gap: 20px;
+}
+
+.container-pagamento .botao-de-sair{
+    margin: 0 0 0 25px;
 }
 
 .content-pagamento{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 80px;
 }
 .pagamento-box-top {
     display: flex;

@@ -14,9 +14,9 @@ export const Header = () => {
       <nav className="nav-header">
         <ul className="list-nav-header">
           <Link to="/home" className='item-list-nav'> INÍCIO </Link>
-          <Link className='item-list-nav'> CARDÁPIO</Link>
+          <Link to="/cardapio"className='item-list-nav'> CARDÁPIO</Link>
           <Link to="/historico" className='item-list-nav'> HISTÓRICO </Link>
-          <Link className='item-list-nav'> HORÁRIOS DE INTERVALO </Link>
+          <Link to="/horários" className='item-list-nav'> HORÁRIOS DE INTERVALO </Link>
         </ul>
       </nav>
 

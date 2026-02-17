@@ -19,7 +19,9 @@ export const SectionLogin = () => {
             <Link to="/home">
               <button className="btn-login">ENTRAR</button>
             </Link>
-          <p>Esqueceu a senha?</p>
+            <Link to="cadastro">
+              <p>Esqueceu a senha?</p>
+            </Link>
         </div>
       </div>
     </section>
