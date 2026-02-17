@@ -29,7 +29,6 @@
 
     .highlight {
     color: var(--color-primary-red);
-    font-weight: 600;
   }
 
 
@@ -45,7 +44,7 @@
     cursor: pointer;
     border-color: #FF0000;
     border: 1px;
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 }
 
 .btn-primary-red:hover {
