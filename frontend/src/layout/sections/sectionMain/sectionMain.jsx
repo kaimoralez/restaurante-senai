@@ -9,7 +9,7 @@ export const SectionMain = () => {
             <div className="container-main">
                 <img src={fraseMain} alt="" />
                 <Link to="/cardapio">
-                    <button className="btn-primary-red">sdasdasd</button>
+                    <button className="btn-primary-red">VER CARDÁPIO</button>
                 </Link>
             </div>
 
