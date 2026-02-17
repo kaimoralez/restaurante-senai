@@ -1,5 +1,5 @@
 import './style.css'
-import imagemProvisoriaPerfil from "../../../assets/img/background-login0.svg"
+import imagemProvisoriaPerfil from "../../../assets/img/prato-de-comida-perfil.svg"
 
 export const SectionPerfil = () => {
     return (
