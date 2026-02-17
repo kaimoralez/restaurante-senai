@@ -4,6 +4,7 @@ import { Login } from "./pages/login/login";
 import { Home } from "./pages/home/home";
 import { Perfil } from "./pages/perfil/perfil";
 import { Historico } from "./pages/historico/historico";
+import { Pagamento } from "./pages/pagamento/pagamento";
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <Route path='/home' element={<Home />}></Route>
         <Route path='/perfil' element={<Perfil />} >  </Route>
         <Route path='/historico' element={<Historico />}></Route>
+        <Route path='/pagamento' element={<Pagamento />}></Route>
+        
       </Routes>
     </BrowserRouter>
   );

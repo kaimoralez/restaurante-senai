@@ -9,6 +9,5 @@ export const Historico = () =>{
         <SectionHistorico />
         <Footer />
         </>
-        
     )
 }
