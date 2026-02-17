@@ -22,16 +22,17 @@
 .container-text p {
   font-family: var(--font-body);
   font-size: var(--font-button-size);
+  font-weight: var(--fw-medium);
   text-align: center;
   width: 443px;
 }
 
 
-.container-img{
+.container-img-about{
     width: 50%;
 }
 
-.container-img img {
+.container-img-about img {
     width: 100%;
     height: 100%;
     object-fit: cover;

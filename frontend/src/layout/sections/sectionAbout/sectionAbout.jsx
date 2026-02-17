@@ -15,7 +15,7 @@ export const SectionAbout = () => {
           preparo diário para garantir frescor e qualidade em cada prato.
         </p>
       </div>
-      <div className="container-img">
+      <div className="container-img-about">
         <img src={restaurantSenai} alt="" />
       </div>
     </section>
