@@ -12,7 +12,7 @@ export const SectionLogin = () => {
         <div>
           <form className="form-login">
             <input type="text" placeholder="CPF ou ID" />
-            <input type="text" placeholder="Senha" />
+            <input type="password" placeholder="Senha"/>
           </form>
         </div>
         <div className="card-action">
