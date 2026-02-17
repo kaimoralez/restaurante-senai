@@ -22,6 +22,7 @@
 .container-text p {
   font-family: var(--font-body);
   font-size: var(--font-button-size);
+  font-weight: var(--fw-medium);
   text-align: center;
   width: 443px;
 }
