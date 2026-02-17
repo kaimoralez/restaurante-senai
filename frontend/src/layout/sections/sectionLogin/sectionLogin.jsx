@@ -11,7 +11,7 @@ export const SectionLogin = () => {
         <h3>Faça seu login!</h3>
         <div>
           <form className="form-login">
-            <input type="text" placeholder="CPF ou ID" />
+            <input type="number" placeholder="CPF ou ID" />
             <input type="password" placeholder="Senha"/>
           </form>
         </div>
