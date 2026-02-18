@@ -54,7 +54,7 @@ export const SectionMenu = () => {
         <h2>Prato do dia</h2>
 
         <div className="cards-grid-menu">
-          <Link>
+          <Link to='/pagamento'>
             {menu.pratosDoDia.map((item) => (
               <CardMenu
                 key={item.id}
@@ -70,7 +70,7 @@ export const SectionMenu = () => {
       <div className="container-menus">
         <h2>Lanches</h2>
         <div className="cards-grid-menu">
-            <Link>
+            <Link to='/pagamento'>
               {menu.lanche.map((item) => (
                 <CardMenu
                   key={item.id}
@@ -86,7 +86,7 @@ export const SectionMenu = () => {
       <div className="container-menus">
         <h2>Bebidas</h2>
         <div className="cards-grid-menu">
-            <Link>
+            <Link to='/pagamento'>
               {menu.bebidas.map((item) => (
                 <CardMenu
                   key={item.id}

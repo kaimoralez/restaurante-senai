@@ -23,11 +23,12 @@ export const Header = () => {
       <div className="user-header">
         <Link to="/perfil">
           <img src={userIcon} alt="" />
-        </Link>
+        
         <div className="user-header-info">
           <p className="name-user-header" >Kaique Pereira</p>
           <p className="user-type-header">Aluno</p>
         </div>
+        </Link>
       </div>
 
     </header>

@@ -29,10 +29,11 @@ header {
   color: var(--color-secondary-black);
 }
 
-.user-header {
+.user-header a {
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
 }
 
 .user-header-info {
