@@ -16,7 +16,7 @@ export const SectionLogin = () => {
           </form>
         </div>
         <div className="card-action">
-            <Link to="/home">
+            <Link to="/inicio">
               <button className="btn-login">ENTRAR</button>
             </Link>
           <p>Esqueceu a senha?</p>
